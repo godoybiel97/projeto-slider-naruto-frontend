@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Naruto Slider - MDW</title>
+
+    <link
+      rel="shortcut icon"
+      href="./src/imagens/Naruto-Logo.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <img src="./src/imagens/Naruto-Logo.png" alt="logo" class="logo" />
+      <h1 class="titulo">MapaDev Week</h1>
+    </header>
+
+    <main class="naruto-slider">
+      <button class="btn-seta btn-voltar" id="btn-retornar">
+        <img src="./src/imagens/seta.png" alt="seta voltar" />
+      </button>
+
+      <ul class="lista-naruto">
+        <li class="cartao selecionado fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Naruto</h2>
+            <p class="vida">HP 300</p>
+          </div>
+          <div class="container-imagem">
+            <img
+              src="./src/imagens/Naruto-Rosto.png"
+              alt="naruto"
+              class="imagens"
+            />
+          </div>
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              minima commodi cupiditate incidunt aut consequuntur, fuga ducimus
+              repudiandae ipsam ex sit perferendis fugit! Fugit, odio labore
+              dolorem dolore repellendus itaque!
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-2">
+          <div class="informacoes">
+            <h2 class="nome">Sasuke</h2>
+            <p class="vida">HP 300</p>
+          </div>
+          <div class="container-imagem">
+            <img
+              src="./src/imagens/Sasuke-Rosto.png"
+              alt="sasuke"
+              class="imagens"
+            />
+          </div>
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
+              adipisci dicta minus inventore maxime fuga totam assumenda error
+              sed officia similique, ipsum minima corporis iste quis quod
+              deleniti suscipit illo?
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-3">
+          <div class="informacoes">
+            <h2 class="nome">Sakura</h2>
+            <p class="vida">HP 300</p>
+          </div>
+          <div class="container-imagem">
+            <img
+              src="./src/imagens/Sakura-Rosto.png"
+              alt="sakura"
+              class="imagens"
+            />
+          </div>
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis,
+              ab. Esse placeat ex ipsum obcaecati cum ullam voluptates,
+              molestias similique minus, reprehenderit quidem nam temporibus,
+              ratione recusandae! Sapiente, quisquam nesciunt.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta hover" id="btn-avancar">
+        <img src="./src/imagens/seta.png" alt="seta avançar" />
+      </button>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
